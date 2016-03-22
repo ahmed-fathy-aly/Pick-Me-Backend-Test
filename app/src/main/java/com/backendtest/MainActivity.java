@@ -33,9 +33,7 @@ public class MainActivity extends AppCompatActivity
     @OnClick(R.id.buttonCreateCommunity)
     void createCommunity()
     {
-        JsonObject json = new JsonObject();
-        json.addProperty("communityName", "test new community");
-        json.addProperty("description", "desc");
+      
         Ion.with(this)
                 .load("http://pickmeasu.azurewebsites.net/api/Create_Community")
                 .addHeader("Authorization", "Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNyc2Etc2hhMjU2IiwidHlwIjoiSldUIn0.eyJuYmYiOjE0NTc3MjA5MDUsImV4cCI6MTQ4OTI1NjkwNCwiaWF0IjoxNDU3NzIwOTA1LCJ1bmlxdWVfbmFtZSI6IjQzIiwiaXNzIjoiRXhhbXBsZUlzc3VlciIsImF1ZCI6IkV4YW1wbGVBdWRpZW5jZSJ9.eoya1ToYFlPkPh7vDeeRDOJY3eBjV0DL58NPOp9mrHC8vDozamtdUCUoMOjKqT1mgfu1_MAz-pU2T-t9GJsAqfI6j7OUXHzHEICSbgdmexnE85QpNX7-a-BTRvap9gNKPFm3BsDoNo6vSOCT-WSRggwdNl7ScJva9ylcB0fAsIq2jEJajPCq7bpHv8m8tV6UvF1x9G6RmYHoLo_53R64XD2FCH_TI-HdD6Y8s_cYjRxTpNJRlA9RVaymDP8ZqlWd7QBuApJGXpnSl6_RVkHN5GF4DBI1y1SYXloAR3vTMvqwB9NcrQ1JmXHFcYWmsA-cUyZI8W041HHSqeMn_1irAA")
