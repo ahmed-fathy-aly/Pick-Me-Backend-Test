@@ -13,10 +13,27 @@
     tools:context="com.asu.pick_me_graduation_project.activity.TestActivity">
 
     <Button
+        android:id="@+id/buttonLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"/>
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"/>
+    <Button
         android:id="@+id/buttonCreateCommunity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Create Community"/>
+
+    <Button
+        android:id="@+id/buttonCreateCommunity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Community2"/>
 
     <Button
         android:id="@+id/buttonEditProfile"
@@ -29,16 +46,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Test Post"/>
+
+
+    <Button
+        android:id="@+id/buttonTestPost2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Post2"/>
     <Button
         android:id="@+id/buttonTestGet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Test GET"/>
 
-    <Button
-        android:id="@+id/buttonSignUpGet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SignUp GET"/>
+
 
 </LinearLayout>

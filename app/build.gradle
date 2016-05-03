@@ -22,5 +22,7 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:23.2.0'
     compile 'com.koushikdutta.ion:ion:2.+'
+    compile 'com.github.kittinunf.fuel:fuel-android:1.2.1' //for Android
+
     compile 'com.jakewharton:butterknife:7.0.1'
 }
